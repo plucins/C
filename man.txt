@@ -1,0 +1,15 @@
+Program nr 1:   obs_syg.c -o obs_syg
+        program do obsługi sygnałów. Przyjmuje parametry z terminala przy            uruchomieniu. Parametry:
+                                k - operacja domyslna
+                                o - ignorowanie sygnalu
+                                c - wlasna obsluga sygnalu
+        oraz nr sygnalu, np 1 lub 9.
+ 
+ 
+Program nr 2:   exe.c -o exe
+        za pomoca funkcji execl uruchamia program nr w procesie potomnym.
+        podobnie jak poprzedni program, przyjmuje parametry z terminala.
+ 
+Program nr 3: grup_syg.c -o grupa
+        uruchamia grupe kilku procesow i wysyla do niej sygnaly.
+        Ten program także przyjmuje parametry podane wyżej.
